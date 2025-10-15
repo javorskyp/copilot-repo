@@ -1,0 +1,14 @@
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/bin/Debug/net9.0/MyFirstDotNetApp
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/bin/Debug/net9.0/MyFirstDotNetApp.deps.json
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/bin/Debug/net9.0/MyFirstDotNetApp.runtimeconfig.json
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/bin/Debug/net9.0/MyFirstDotNetApp.dll
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/bin/Debug/net9.0/MyFirstDotNetApp.pdb
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.AssemblyInfoInputs.cache
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.AssemblyInfo.cs
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.csproj.CoreCompileInputs.cache
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.dll
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/refint/MyFirstDotNetApp.dll
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.pdb
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/MyFirstDotNetApp.genruntimeconfig.cache
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/Debug/net9.0/ref/MyFirstDotNetApp.dll
