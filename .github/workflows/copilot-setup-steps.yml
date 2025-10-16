@@ -1,0 +1,30 @@
+name: Copilot Setup Steps
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  setup-environment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup .NET 9
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore NuGet packages
+        run: dotnet restore
+
+      - name: Install Aspire CLI
+        run: |
+          curl -sSL https://example.com/aspire-cli-install.sh | bash
+
+      - name: Install MAUI workload
+        run: dotnet workload install maui

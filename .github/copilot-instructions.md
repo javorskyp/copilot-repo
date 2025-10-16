@@ -53,3 +53,25 @@ These guidelines apply to the entire project.
 
 - For backend (C#): see `.github/csharp-guidelines.md`
 - For frontend (Blazor): see `.github/blazor-guidelines.md`
+
+# Copilot Instructions
+
+## Architektura projektu
+- Backend: ASP.NET Core 9
+- Frontend: Blazor Server / MAUI
+- Foldery:
+  - /Controllers
+  - /Models
+  - /Pages
+  - /wwwroot
+
+## Konwencje kodu
+- Klasy i metody: PascalCase
+- Zmienne lokalne: camelCase
+- DTO: JSON z atrybutami [JsonPropertyName]
+- Testy: xUnit, jeden test na metodę
+
+## Zasady CSS
+- Używamy BEM naming convention
+- Kolory: zgodnie z plikiem variables.css
+- Proste, czytelne style dla formularzy i komponentów

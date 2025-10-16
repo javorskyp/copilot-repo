@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/" 
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "chore"
+    ignore:
+      - dependency-name: "SomeUnsafePackage"
+        versions:
+          - "8.x"
+
+  - package-ecosystem: "dotnet"
+    directory: "/"
+    schedule:
+      interval: "weekly"
