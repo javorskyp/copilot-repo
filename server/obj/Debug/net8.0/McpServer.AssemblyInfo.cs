@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MyFirstDotNetApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("McpServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("MyFirstDotNetApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MyFirstDotNetApp")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f78d03b9cb15cb17e5bbede3dd2c895c2587de32")]
+[assembly: System.Reflection.AssemblyProductAttribute("McpServer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("McpServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

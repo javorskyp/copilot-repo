@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "local-dotnet": {
+      "type": "stdio",
+      "command": "dotnet",
+	  "args": ["run", "--project", "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/McpServer.csproj"]
+    }
+  },
+  "inputs": []
+}

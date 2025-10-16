@@ -1,0 +1,5 @@
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/obj/Debug/net8.0/McpServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/obj/Debug/net8.0/McpServer.AssemblyInfoInputs.cache
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/obj/Debug/net8.0/McpServer.AssemblyInfo.cs
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/obj/Debug/net8.0/McpServer.csproj.CoreCompileInputs.cache
+/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/obj/Debug/net8.0/McpServer.sourcelink.json

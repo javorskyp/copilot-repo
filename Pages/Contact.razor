@@ -1,0 +1,46 @@
+@page "/contact"
+
+<h3>Kontakt</h3>
+
+<div class="contact-form">
+    <div>
+        <label>Imię:</label>
+        <input @bind="contact.Name" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input @bind="contact.Email" />
+    </div>
+    <div>
+        <label>Wiadomość:</label>
+        <textarea @bind="contact.Message"></textarea>
+    </div>
+    <div>
+        <button @onclick="Submit">Wyślij</button>
+    </div>
+</div>
+
+@if (submitted)
+{
+    <p>Wiadomość wysłana. Dziękujemy!</p>
+}
+
+@code {
+    private bool submitted = false;
+
+    private ContactModel contact = new ContactModel();
+
+    private void Submit()
+    {
+        // For now just mark as submitted — replace with API call if needed
+        submitted = true;
+        Console.WriteLine($"Contact form submitted: {contact.Name}, {contact.Email}, {contact.Message}");
+    }
+
+    public class ContactModel
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Message { get; set; } = string.Empty;
+    }
+}

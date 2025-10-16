@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": []
   },
   "packageFolders": {
     "/Users/jpsoftware/.nuget/packages/": {}
@@ -13,24 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/MyFirstDotNetApp.csproj",
-      "projectName": "MyFirstDotNetApp",
-      "projectPath": "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/MyFirstDotNetApp.csproj",
+      "projectUniqueName": "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/McpServer.csproj",
+      "projectName": "McpServer",
+      "projectPath": "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/McpServer.csproj",
       "packagesPath": "/Users/jpsoftware/.nuget/packages/",
-      "outputPath": "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/obj/",
+      "outputPath": "/Users/jpsoftware/Desktop/c#/MyFirstDotNetApp/server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jpsoftware/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -47,8 +47,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -60,10 +60,21 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.20, 8.0.20]"
           },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.20, 8.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.20, 8.0.20]"
+          }
+        ],
+        "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
